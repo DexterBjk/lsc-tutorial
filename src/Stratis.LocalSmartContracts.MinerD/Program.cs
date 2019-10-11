@@ -29,11 +29,13 @@ class Program
                 .UseNodeSettings(nodeSettings)
                 .UseBlockStore()
                 .UseMempool()
-                .AddSmartContracts()
+                .AddSmartContracts(options =>
+                {
+                    options.UseReflectionExecutor();
+                })
                 .UseSmartContractPoAConsensus()
                 .UseSmartContractPoAMining()
                 .UseSmartContractWallet()
-                .UseReflectionExecutor()
                 .UseApi()
                 .AddRPC()
                 .Build();
