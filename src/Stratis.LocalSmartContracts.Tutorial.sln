@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stratis.LocalSmartContracts.NodeD", "Stratis.LocalSmartContracts.NodeD\Stratis.LocalSmartContracts.NodeD.csproj", "{9BB91462-93B3-4D31-A2D6-B9E5D1BBDA5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stratis.LocalSmartContracts.MinerD", "Stratis.LocalSmartContracts.MinerD\Stratis.LocalSmartContracts.MinerD.csproj", "{5DE19DC1-355D-4572-88FE-6EC8E65AFD29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stratis.LocalSmartContracts.Networks", "Stratis.LocalSmartContracts.Networks\Stratis.LocalSmartContracts.Networks.csproj", "{5A1A2D78-F90E-401C-9621-74E6EEB49F9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BB91462-93B3-4D31-A2D6-B9E5D1BBDA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB91462-93B3-4D31-A2D6-B9E5D1BBDA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB91462-93B3-4D31-A2D6-B9E5D1BBDA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB91462-93B3-4D31-A2D6-B9E5D1BBDA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DE19DC1-355D-4572-88FE-6EC8E65AFD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DE19DC1-355D-4572-88FE-6EC8E65AFD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DE19DC1-355D-4572-88FE-6EC8E65AFD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DE19DC1-355D-4572-88FE-6EC8E65AFD29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A1A2D78-F90E-401C-9621-74E6EEB49F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A1A2D78-F90E-401C-9621-74E6EEB49F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A1A2D78-F90E-401C-9621-74E6EEB49F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A1A2D78-F90E-401C-9621-74E6EEB49F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4134CE41-FD74-432B-97A7-0792778A5D8F}
+	EndGlobalSection
+EndGlobal
